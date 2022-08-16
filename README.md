@@ -52,6 +52,10 @@ to run in terminal / git :
 
 ---
 
+$ npm install
+
+then
+
 $ npm start
 
 ---
