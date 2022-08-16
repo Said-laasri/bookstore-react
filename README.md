@@ -1,10 +1,10 @@
 # Project Name
 
-math magisians
+BookStore
 
 # Description the project.
 
-Calculator is apps that does calculon web browser
+Awsome books website is a page that contains information about list of books with the title and author names .
 
 ## Built With
 
@@ -14,47 +14,42 @@ Calculator is apps that does calculon web browser
 
 ## Getting Started
 
-**calculator app created with React**
+**BookStore app created with React**
 
 ---
 
 To get a local copy up and running follow these simple example steps.
 follow>>>>>>>>>
 
-### Setup
+### Clone the bookstore App
 
-to use the project Leaderboard please follow :
+to use the project bookstore please follow :
 
-> Open GitHub and go to my GitHub repository name: math magisians clone.
+- Open GitHub and go to my GitHub repository name:Bookstore clone.
 
-> Click “Code” and copy the given URL.
+- Click “Code” and copy the given URL.
 
-> click code and copy the URL.
+- Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
 
-> click code and copy the URL.
-
-> Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
-
-> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+- Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
 
 > Syntax:
 
 $ git clone {repository URL}
 
-### Usage
+### Run bookstore app on your local machine
 
-> open your directory Tv-show/
+> open your directory bookstore-react/
 
-\_use vs-code or any IDE to view line code .
+## \_use vs-code or any IDE to view code .
 
-\_use you preferd browser to run the file .html to get project website.
-to run in terminal / git :
+$ npm install
 
----
+then
 
 $ npm start
 
----
+<hr>
 
 ## Authors
 
@@ -78,3 +73,7 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Inspiration
 - etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.

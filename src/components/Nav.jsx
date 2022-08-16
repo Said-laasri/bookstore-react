@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './nav.scss';
 
 function Nav() {
   return (
-    <div>
-      <h1>BookStore CMS</h1>
+    <div className="navigation">
+      <h1 className="navigation-title">BookStore CMS</h1>
       <Link to="/">Books</Link>
       <Link to="/Categories">CATEGORIES</Link>
     </div>
