@@ -1,9 +1,13 @@
 const ADD_BOOK = 'bookstore/books/ADD_BOOK';
-
+const FETCH_API = 'bookstore/books/FETCH_API';
 const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
-export default (state = [], action) => {
+const initialState = [];
+
+export default (state = initialState, action) => {
   switch (action.type) {
+    case FETCH_API:
+      return [...state];
     case ADD_BOOK:
       return [...state, action.book];
     case REMOVE_BOOK:
@@ -21,4 +25,8 @@ export const addBOOK = (book) => ({
 export const removeBook = (id) => ({
   type: REMOVE_BOOK,
   id,
+});
+
+export const fetchData = () => ({
+  type: FETCH_API,
 });
