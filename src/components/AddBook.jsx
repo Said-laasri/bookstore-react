@@ -8,11 +8,6 @@ import API_BOOK from '../api/api';
 function AddBook() {
   const dispatch = useDispatch();
 
-  // const [formStates, setFormStates, setCategories] = useState({
-  //   title: '',
-  //   author: '',
-  //   category: '',
-  // });
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   const [category, setCategory] = useState('');
@@ -26,22 +21,6 @@ function AddBook() {
   const changeCategory = (e) => {
     setCategory(e.target.value);
   };
-  // const changeState = (e) => {
-  //   e.preventDefault();
-  //   setFormStates({ ...formStates, [e.target.name]: e.target.value });
-  // };
-
-  // const bookState = (e) => {
-  //   e.preventDefault();
-  //   if (!formStates.title.trim() || !formStates.author.trim()) return;
-  //   const book = {
-  //     id: uuidv4(),
-  //     title: formStates.title,
-  //     author: formStates.author,
-  //   };
-  //   dispatch(addBOOK(book));
-  //   setFormStates({ title: '', author: '' });
-  // };
 
   const addBook = async (e) => {
     e.preventDefault();

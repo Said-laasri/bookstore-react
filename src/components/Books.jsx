@@ -22,9 +22,9 @@ function Books() {
         });
         return dispatch(fetchData());
       }
-      return console.log('No book in api');
+      return books;
     },
-    []
+    [],
   );
 
   return (
