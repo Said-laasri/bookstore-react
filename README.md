@@ -8,7 +8,7 @@ Awsome books website is a page that contains information about list of books wit
 
 ## Built With
 
-- html/css/js/React.
+- html/sass/js/React.
 - following linters standards.
 - following github flows standards.
 
