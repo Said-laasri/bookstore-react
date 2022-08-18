@@ -2,10 +2,13 @@ import { useDispatch } from 'react-redux';
 import { PropTypes } from 'prop-types';
 import axios from 'axios';
 import { removeBook } from '../redux/books/books';
-import './book.scss';
+import CurrentChapter from './CurrentChapter';
+import StatusBook from './StatusBook';
+import './Book.scss';
 
 function Book(props) {
   const dispatch = useDispatch();
+
   const {
     id, title, author, category,
   } = props;
@@ -20,18 +23,24 @@ function Book(props) {
   };
 
   return (
-    <div>
+    <div className="book-container">
       <div className="book">
         <div className="book-info">
+          <h3>{category}</h3>
           <h2>{title}</h2>
           <h3>{author}</h3>
-          <h3>{category}</h3>
         </div>
         <div className="btn-control">
-          <button type="button" onClick={bookRemove}>
+          <button className="btn-cl" type="button">Comments</button>
+          <button className="btn-cl" type="button" onClick={bookRemove}>
             Remove
           </button>
+          <button className="btn-cl" type="button">Edits</button>
         </div>
+      </div>
+      <div className="book-status">
+        <StatusBook />
+        <CurrentChapter />
       </div>
     </div>
   );

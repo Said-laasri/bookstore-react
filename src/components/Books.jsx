@@ -28,7 +28,7 @@ function Books() {
   );
 
   return (
-    <div>
+    <div className="book-list">
       {books.map((book) => (
         <Book
           key={book.item_id}
