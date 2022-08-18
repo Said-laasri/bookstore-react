@@ -2,6 +2,7 @@ import { useDispatch } from 'react-redux';
 import { PropTypes } from 'prop-types';
 import axios from 'axios';
 import { removeBook } from '../redux/books/books';
+import './book.scss';
 
 function Book(props) {
   const dispatch = useDispatch();

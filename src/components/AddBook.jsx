@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { addBOOK } from '../redux/books/books';
 import API_BOOK from '../api/api';
+import './form.scss';
 
 function AddBook() {
   const dispatch = useDispatch();
