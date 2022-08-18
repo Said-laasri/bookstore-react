@@ -1,39 +1,40 @@
 .book-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 3rem;
 }
-.book-status{
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
+
+.book-status {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
 }
 
 .book {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .book-info {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
-    font-family: RobotoSlab;
-    font-size: 1.6rem;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    color: #121212;
-    margin: 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #121212;
+  margin: 0;
 }
- 
+
 h3 {
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -44,13 +45,13 @@ h3 {
 }
 
 .btn-cl {
- font-family: RobotoSlab;
- font-size: 0.875rem;
- font-weight: 300;
- font-stretch: normal;
- font-style: normal;
- line-height: normal;
- letter-spacing: normal;
- color: #4386bf;
- border: none;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
 }

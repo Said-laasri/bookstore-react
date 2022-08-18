@@ -4,16 +4,18 @@
   justify-content: space-between;
   height: 5.938rem;
   background-color: #fff;
+
   &-container1 {
     display: flex;
     align-items: center;
     gap: 1rem;
     padding-left: 4rem;
   }
+
   &-title {
     width: 15rem;
     height: 2.313rem;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 1.875rem;
     font-weight: bold;
     font-stretch: normal;
@@ -21,32 +23,39 @@
     line-height: normal;
     letter-spacing: normal;
     color: #0290ff;
+
     &:hover {
       animation-name: logo;
       animation-duration: 5s;
+
       @keyframes logo {
         0% {
           color: red;
         }
+
         25% {
           color: rgb(255, 115, 0);
         }
+
         50% {
           color: yellow;
         }
+
         75% {
           color: rgb(51, 255, 0);
         }
+
         100% {
           color: blue;
         }
       }
     }
   }
+
   &-link1 {
     width: 3.688rem;
     height: 1rem;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 0.813rem;
     font-weight: normal;
     font-stretch: normal;
@@ -61,11 +70,12 @@
       color: deeppink;
     }
   }
+
   &-link2 {
     width: 6.563rem;
     height: 1rem;
     opacity: 0.5;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 0.813rem;
     font-weight: normal;
     font-stretch: normal;
@@ -74,33 +84,41 @@
     letter-spacing: 1.9px;
     color: #121212;
     text-decoration: none;
+
     &:hover {
       font-size: 1rem;
       color: deeppink;
     }
   }
+
   &-BsPersonFill {
     color: #0290ff;
     width: 1.5rem;
     height: 1.5rem;
     padding-right: 5rem;
+
     &:hover {
       font-size: 1rem;
       animation-name: icon;
       animation-duration: 5s;
+
       @keyframes icon {
         0% {
           color: red;
         }
+
         25% {
           color: rgb(255, 115, 0);
         }
+
         50% {
           color: yellow;
         }
+
         75% {
           color: rgb(51, 255, 0);
         }
+
         100% {
           color: blue;
         }
