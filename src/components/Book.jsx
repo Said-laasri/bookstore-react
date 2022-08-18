@@ -23,22 +23,22 @@ function Book(props) {
   };
 
   return (
-    <div className="book-container">
-      <div className="book">
-        <div className="book-info">
-          <h3>{category}</h3>
-          <h2>{title}</h2>
-          <h3>{author}</h3>
+    <div className="book-container d-flex">
+      <div className="book d-flex">
+        <div className="book-info d-flex">
+          <h3 className="title1 font-mont">{category}</h3>
+          <h2 className="title2 font-Roboto">{title}</h2>
+          <h3 className="title1 font-mont">{author}</h3>
         </div>
         <div className="btn-control">
-          <button className="btn-cl" type="button">Comments</button>
-          <button className="btn-cl" type="button" onClick={bookRemove}>
+          <button className="btn-cl font-Roboto" type="button">Comments</button>
+          <button className="btn-cl font-Roboto" type="button" onClick={bookRemove}>
             Remove
           </button>
-          <button className="btn-cl" type="button">Edits</button>
+          <button className="btn-cl font-Roboto" type="button">Edits</button>
         </div>
       </div>
-      <div className="book-status">
+      <div className="book-status d-flex">
         <StatusBook />
         <CurrentChapter />
       </div>

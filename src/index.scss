@@ -16,10 +16,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 1.75rem 1.75rem 1.75rem 1.75rem;
-  background-color: rgba(238, 232, 232, 0.726);
   box-sizing: border-box;
-  margin: 3%;
+  text-align: center;
+  margin: 0 5% 0 5%;
 }
 
 code {
@@ -30,4 +29,16 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.font-mont {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-Roboto {
+  font-family: RobotoSlab, sans-serif;
 }

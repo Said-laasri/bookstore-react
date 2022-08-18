@@ -1,5 +1,5 @@
 .pie {
-  --p: 50;
+  --p: 60;
   --b: 5px;
   --c: rgb(5, 81, 180);
   --w: 130px;
@@ -67,35 +67,18 @@
   }
 }
 
-body {
-  background: rgb(170, 163, 163);
-}
-
 .book-status-current {
-  display: flex;
   justify-content: space-evenly;
   gap: 1rem;
 }
 
-#status-pre {
-  font-family: 'Montserrat', sans-serif;
+.status-pre {
   font-size: 2rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #121212;
 }
 
-#completed {
+.completed {
   opacity: 0.5;
-  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #121212;
 }

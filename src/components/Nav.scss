@@ -1,13 +1,12 @@
 .navigation {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   height: 5.938rem;
   gap: 3rem;
   background-color: #fff;
+  margin-bottom: 3rem;
 
   &-container1 {
-    display: flex;
     align-items: center;
     gap: 1rem;
     padding-left: 4rem;
@@ -15,13 +14,8 @@
 
   &-title {
     height: 2.313rem;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.875rem;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #0290ff;
 
     &:hover {
@@ -55,12 +49,7 @@
   &-link1 {
     width: 3.688rem;
     height: 1rem;
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.813rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     letter-spacing: 1.9px;
     color: #121212;
     text-decoration: none;
@@ -75,12 +64,7 @@
     width: 6.563rem;
     height: 1rem;
     opacity: 0.5;
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.813rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     letter-spacing: 1.9px;
     color: #121212;
     text-decoration: none;

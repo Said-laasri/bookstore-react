@@ -37,8 +37,8 @@ function AddBook() {
   };
 
   return (
-    <div className="add-book">
-      <h3 className="add-book-title">ADD NEW BOOK</h3>
+    <div className="add-book d-flex">
+      <h3 className="add-book-title font-mont">ADD NEW BOOK</h3>
       <form onSubmit={addBook}>
         <input
           type="text"
@@ -72,7 +72,7 @@ function AddBook() {
             <option value="Documentary">Documentary</option>
           </select>
         </label>
-        <button type="submit" className="add-book-btn">ADD BOOK</button>
+        <button type="submit" className="add-book-btn font-Roboto">ADD BOOK</button>
       </form>
     </div>
   );

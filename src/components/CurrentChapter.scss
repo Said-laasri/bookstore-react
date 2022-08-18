@@ -2,12 +2,8 @@
   padding: 0.438rem 1.188rem 0.5rem 1.375rem;
   border-radius: 3px;
   background-color: #0290ff;
-  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
@@ -19,23 +15,16 @@
   flex-direction: column;
 }
 
-#current-chapter {
+.current-chapter {
   opacity: 0.5;
-  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #121212;
 }
 
-#chapter-number {
-  font-family: 'RobotoSlab', sans-serif;
+.chapter-number {
   font-size: 1rem;
   font-weight: 300;
   opacity: 5;
-  font-stretch: normal;
   color: #000;
 }
