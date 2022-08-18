@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { checkStatusBook } from '../redux/categories/categories';
+import './Categories.scss';
 
 function Categories() {
   const alert = useSelector((state) => state.categories);
