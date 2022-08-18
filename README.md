@@ -59,8 +59,13 @@ $ npm start
 - Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
-## 🤝 Contributing
+## Credit 🌠🌠🌠🌠🌠🌠🌠🌠
 
+ Thanks  ==> **Usman Suleiman Babakolo**  For a great project design
+
+
+## 🤝 Contributing
+ 
 Contributions, issues, and feature requests are welcome!
 thanks:
 

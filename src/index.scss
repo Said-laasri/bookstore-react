@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
+
 body {
-  margin: 0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -14,6 +16,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 5% 0 5%;
 }
 
 code {
@@ -24,4 +29,16 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.font-mont {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-Roboto {
+  font-family: RobotoSlab, sans-serif;
 }

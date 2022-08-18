@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { checkStatusBook } from '../redux/categories/categories';
+import './Categories.scss';
 
 function Categories() {
   const alert = useSelector((state) => state.categories);
@@ -9,11 +10,11 @@ function Categories() {
     dispatch(checkStatusBook());
   };
   return (
-    <div className="check">
-      <button onClick={statusChecker} type="button">
+    <div className="check d-flex">
+      <button className="button font-Roboto" onClick={statusChecker} type="button">
         Check status
       </button>
-      <h6>{alert}</h6>
+      <h6 className="alet font-Roboto">{alert}</h6>
     </div>
   );
 }

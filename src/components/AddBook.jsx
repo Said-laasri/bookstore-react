@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { addBOOK } from '../redux/books/books';
 import API_BOOK from '../api/api';
+import './AddBook.scss';
 
 function AddBook() {
   const dispatch = useDispatch();
@@ -36,8 +37,8 @@ function AddBook() {
   };
 
   return (
-    <div>
-      <h3>ADD NEW BOOK</h3>
+    <div className="add-book d-flex">
+      <h3 className="add-book-title font-mont">ADD NEW BOOK</h3>
       <form onSubmit={addBook}>
         <input
           type="text"
@@ -53,15 +54,25 @@ function AddBook() {
           placeholder="Book Author"
           name="author"
         />
-        <input
-          type="text"
-          value={category}
-          onChange={changeCategory}
-          placeholder="Book Category"
-          name="category"
-        />
-
-        <button type="submit">ADD BOOK</button>
+        <label htmlFor="catehory-select">
+          <select
+            type="text"
+            value={category}
+            onChange={changeCategory}
+            placeholder="Category"
+            name="category"
+          >
+            <option value="Slice Of Life">Slice Of Life</option>
+            <option value="Drama">Drama</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Animation">Animation</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Horror">Horror</option>
+            <option value="Documentary">Documentary</option>
+          </select>
+        </label>
+        <button type="submit" className="add-book-btn font-Roboto">ADD BOOK</button>
       </form>
     </div>
   );
