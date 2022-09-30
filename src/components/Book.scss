@@ -1,0 +1,40 @@
+.book-container {
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.book-status {
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.book {
+  flex-direction: column;
+}
+
+.book-info {
+  flex-direction: column;
+  text-align: start;
+}
+
+.title2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #121212;
+  margin: 0;
+}
+
+.title1 {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #121212;
+}
+
+.btn-cl {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+  border: none;
+}

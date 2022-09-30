@@ -1,0 +1,112 @@
+.navigation {
+  align-items: center;
+  justify-content: space-between;
+  height: 5.938rem;
+  gap: 3rem;
+  background-color: #fff;
+  margin-bottom: 3rem;
+
+  &-container1 {
+    align-items: center;
+    gap: 1rem;
+    padding-left: 4rem;
+  }
+
+  &-title {
+    height: 2.313rem;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #0290ff;
+
+    &:hover {
+      animation-name: logo;
+      animation-duration: 5s;
+
+      @keyframes logo {
+        0% {
+          color: red;
+        }
+
+        25% {
+          color: rgb(255, 115, 0);
+        }
+
+        50% {
+          color: yellow;
+        }
+
+        75% {
+          color: rgb(51, 255, 0);
+        }
+
+        100% {
+          color: blue;
+        }
+      }
+    }
+  }
+
+  &-link1 {
+    width: 3.688rem;
+    height: 1rem;
+    font-size: 0.813rem;
+    letter-spacing: 1.9px;
+    color: #121212;
+    text-decoration: none;
+
+    &:hover {
+      font-size: 1rem;
+      color: deeppink;
+    }
+  }
+
+  &-link2 {
+    width: 6.563rem;
+    height: 1rem;
+    opacity: 0.5;
+    font-size: 0.813rem;
+    letter-spacing: 1.9px;
+    color: #121212;
+    text-decoration: none;
+
+    &:hover {
+      font-size: 1rem;
+      color: deeppink;
+    }
+  }
+
+  &-BsPersonFill {
+    color: #0290ff;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 5rem;
+
+    &:hover {
+      font-size: 1rem;
+      animation-name: icon;
+      animation-duration: 5s;
+
+      @keyframes icon {
+        0% {
+          color: red;
+        }
+
+        25% {
+          color: rgb(255, 115, 0);
+        }
+
+        50% {
+          color: yellow;
+        }
+
+        75% {
+          color: rgb(51, 255, 0);
+        }
+
+        100% {
+          color: blue;
+        }
+      }
+    }
+  }
+}
