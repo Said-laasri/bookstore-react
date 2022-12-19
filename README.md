@@ -1,57 +1,95 @@
-# Project Name
+# 📗 Table of Contents
 
-BookStore
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Exotic Rentals ](#-exotic-rentals--)
+  - [Backend](#backend)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# Description the project.
+# 📖 Bookstore <a name="about-project"></a>
 
-Awsome books website is a page that contains information about list of books with the title and author names .
+**The Bookstore** is a website where the user can display a list of books, add a book by providing a title, an author, and selecting from the categories, and remove a selected book.
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- html/sass/js/React.
-- following linters standards.
-- following github flows standards.
+### Tech Stack <a name="tech-stack"></a>
 
-## Getting Started
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.org/">Redux</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="https://reduxtoolkit.org/">Redux/Toolkit</a></li>
+  </ul>
+</details>
 
-**BookStore app created with React**
+## 🚀 Live Demo <a name="live-demo"></a>
 
----
+- [Live Demo Link](https://bookstore-react-gamma.vercel.app/)
 
-To get a local copy up and running follow these simple example steps.
-follow>>>>>>>>>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Clone the bookstore App
+## 💻 Getting Started <a name="getting-started"></a>
 
-to use the project bookstore please follow :
+To get a local copy up and running, follow these steps.
 
-- Open GitHub and go to my GitHub repository name:Bookstore clone.
+### Prerequisites
 
-- Click “Code” and copy the given URL.
+In order to run this project you need:
 
-- Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+### Setup
 
-- Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+Clone this repository to your desired folder:
 
-> Syntax:
+```sh
+  cd my-folder
+  git clone git@github.com
+```
 
-$ git clone {repository URL}
+### Install
 
-### Run bookstore app on your local machine
+Install this project with:
 
-> open your directory bookstore-react/
+```sh
+  cd bookstore
+  yarn install
+```
 
-## \_use vs-code or any IDE to view code .
+### Usage
 
-$ npm install
+To run the project, execute the following command:
 
-then
+```sh
+  npm start
+```
 
-$ npm start
+### Deployment
 
-<hr>
+You can deploy this project using:
 
-## Authors
+```sh
+  git push main
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
 
 👤 **Said laasri**
 
@@ -82,3 +120,6 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
